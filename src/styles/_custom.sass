@@ -2,18 +2,223 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 55%
+    right: 14%
+    
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 12%
+    right: 33%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 78%
+    right: 62%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 54%
+    right: 69%
+  &-6
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 69%
+    right: 31%
+  &-7
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 78%
+    right: 47%
 
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo_interno.svg") !important
+  background-repeat: no-repeat
+  background-color: $color-acento-contenido !important
+.banner-principal__componente
+  em
+    color: $color-acento-botones
+  h1
+    color: $color-sistema-texto
+.banner-principal__info
+  width: 600px
+  background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+  align-self: stretch
+  background-repeat: no-repeat
+  background-position: 15% 1%, 17% 76%
+  background-size: 50%, 25%
+  animation: Flitp1 6s ease infinite
+  margin-top: 30px
+  @media screen and (max-width: $bp-max-lg)
+    width: 560px
+  @media screen and (max-width: $bp-max-md)
+    width: 100%
+  @media screen and (max-width: $bp-max-xs)
+    background-image: none
+    padding-top: 2rem !important 
+   
+@keyframes Flitp1
+  0%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+  50%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+    background-position: 36% 1%, 25% 80%
+      
+  100%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+.banner-interno__titulo
+  h2
+    color: $color-sistema-texto !important
+.banner-interno__titulo__icono
+  i
+    &::before
+      color: white !important
+//COLOR TEXTO//
+.colr
+  color: $color-acento-botones
+  &_1
+    color: #777777
+  &_2
+    color: $color-secundario
+//FONDOS//
+.bgr
+  background-color: white
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0    
+    top: -3%
+    left: 12%
+    width: 90%
+    height: calc(100% + 11px)
+    background-color: #6B8DFC
+    border-radius: 20px
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: 79%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-02
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem   
+    top: -5%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 70%
+    background-image: url("../assets/curso/introduccion/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media (max-width: $bp-max-md)
+      height: 90%
+    @media (max-width: $bp-max-xs)
+      height: 90%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-03
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0    
+    top: 11%
+    left: 15%
+    width: 83%
+    height: 75%
+    background-color: white
+    border-radius: 20px
+    @media (max-width: $bp-max-md)
+      top: -2%
+      height: calc(100% + 2rem)
+      left: -5%
+      width: calc(100% + 4rem)
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: calc(100% + 11px)
+      left: -3%;
+      width: calc(100% + 2rem);
+    @media (max-width: 426px)
+      height: 100%
+.bg_grad-04
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0    
+    top: 18%
+    left: 6%
+    width: 75%
+    height: 66%
+    background-color: #3C3FA7
+    border-radius: 20px
+    @media (max-width: $bp-max-md)
+      top: -2%
+      left: -2%
+      width: calc(100% + 2rem)
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: 79%
+    @media (max-width: 426px)
+      height: 87%
+//POSISION PANTALLA//
+.pst
+  position: absolute
+  top: 0
+  right: 3%
+  width: 70px
+  &_1
+    position: absolute
+    bottom: 3%
+    left: 35%
+    width: 83px
+//CLASES REEMPLAZADAS//
+.traduccionAudio__chat__item__message__bubble
+  background-color: #DDDEFF !important
+  padding: 2em !important
+  i
+    color: $color-secundario
+.traduccionAudio__chat__item__message__text__eng.textAudio__ing
+  span
+    font-weight: 400 !important
+.textAudio__esp 
+  color: #777777 !important
+.horizontal-scroll
+  align-items: stretch !important
+.dialogoTraduccionChat 
+  border: none !important
+.dialogoTraduccionChat__chat__item__person
+  span
+    color: #3C3FA7
+.dialogoTraduccionChat__chat__item__message__bubble
+  background-color: #E1E8FF !important
+  &::before
+    background-color: #E1E8FF !important

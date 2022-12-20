@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 <em>Intensifiers</em> (Intensificadores)
+        span 4
+      h1 <em>Organizing the ideas of an argument with mind maps</em> (Organizando las ideas de un argumento con mapas mentales)    
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),

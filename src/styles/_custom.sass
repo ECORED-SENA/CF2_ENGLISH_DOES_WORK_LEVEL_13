@@ -148,6 +148,16 @@
   &_15
     background-color: white
     border-top: 20px solid #3C3FA7
+  &_16
+    i
+      background-color: #FCF2CA
+      padding: 0.5rem
+    b
+      color: $color-secundario
+  &_17
+    i
+      color: $color-secundario
+      
   
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -432,6 +442,27 @@
       height: 79%
     @media (max-width: 426px)
       height: 87%
+.bg_grad-14
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem   
+    top: -2%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 84%
+    background-image: url("../assets/curso/tema3/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media (max-width: $bp-max-md)
+      height: 90%
+    @media (max-width: $bp-max-xs)
+      height: 90%
+    @media (max-width: 426px)
+      height: 87%
 //POSISION PANTALLA//
 .pst
   position: absolute
@@ -477,8 +508,6 @@
 .traduccionAudio__chat__item__message__bubble
   background-color: #DDDEFF !important
   padding: 2em !important
-  i
-    color: $color-secundario
 .traduccionAudio__chat__item__message__text__eng.textAudio__ing
   span
     font-weight: 400 !important
@@ -495,3 +524,6 @@
   background-color: #E1E8FF !important
   &::before
     background-color: #E1E8FF !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #3C3FA7
+  background-image: url("../assets/componentes/arrow1.svg")

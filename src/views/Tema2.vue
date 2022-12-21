@@ -43,7 +43,7 @@
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/6.svg", alt="alt")
         .col-lg-8
-          AcordionA(tipo="b" clase-tarjeta="tarjeta bgr_2")
+          AcordionA(tipo="b" clase-tarjeta="tarjeta bgr_18")
             .tarjeta(titulo="<em>More intense, more powerful</em>").bgr.p-3
               .row
                 .col-lg-5

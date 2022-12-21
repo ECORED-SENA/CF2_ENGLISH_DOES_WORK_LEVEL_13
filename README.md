@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://github.com/ECORED-SENA/CF2_ENGLISH_DOES_WORK_LEVEL_13](https://github.com/ECORED-SENA/CF2_ENGLISH_DOES_WORK_LEVEL_13)
+[https://ecored-sena.github.io/CF2_ENGLISH_DOES_WORK_LEVEL_13/](https://ecored-sena.github.io/CF2_ENGLISH_DOES_WORK_LEVEL_13/)
 
 #
 

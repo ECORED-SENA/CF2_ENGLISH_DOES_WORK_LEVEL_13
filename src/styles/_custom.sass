@@ -96,9 +96,44 @@
     color: #777777
   &_2
     color: $color-secundario
+  &_3
+    color: #FED947
+  &_4
+    color: white
 //FONDOS//
 .bgr
   background-color: white
+  &_1
+    background-color: #FFBFC1
+  &_2
+    background-color: #DDDEFF
+  &_3
+    background-image: url("../assets/curso/tema1/8.png")
+    background-repeat: no-repeat
+    background-size: cover
+  &_4
+    background-color: #F0F4FF
+  &_5
+    background-color: #E1E8FF
+  &_6
+    background-color: #FFDFE0
+  &_7
+    background-color: #FF9FA3
+  &_8
+    background-color: #C4D1FF
+  &_9
+    background-color: #6B8DFC
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+  &_10
+    background-color: white
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
+  &_11
+    background-color: #FC5F65
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+  
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -131,7 +166,7 @@
     left: 0
     width: calc(100% + 6rem)
     height: 70%
-    background-image: url("../assets/curso/introduccion/fondo1.svg")
+    background-image: url("../assets/componentes/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
     @media (max-width: $bp-max-md)
@@ -189,6 +224,113 @@
       height: 79%
     @media (max-width: 426px)
       height: 87%
+.bg_grad-05
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0    
+    top: 20%
+    left: 34%
+    width: 46%
+    height: 64%
+    background-color: #3C3FA7
+    border-radius: 20px
+    @media (max-width: $bp-max-md)
+      top: -2%
+      left: -2%
+      width: calc(100% + 2rem)
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: 79%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-06
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem   
+    top: -5%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 90%
+    background-image: url("../assets/componentes/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media (max-width: $bp-max-md)
+      height: 90%
+    @media (max-width: $bp-max-xs)
+      height: 90%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-07
+  position: relative
+  .row, p, figure
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem   
+    top: 20%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 67%
+    background-color: #FFF7DA
+    @media (max-width: $bp-max-md)
+      height: 90%
+    @media (max-width: $bp-max-xs)
+      height: 90%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-08
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem   
+    top: 16%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 89%
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media (max-width: $bp-max-md)
+      height: 90%
+    @media (max-width: $bp-max-xs)
+      height: 90%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-09
+  position: relative
+  .row, p
+    position  : relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0    
+    top: 11%
+    left: 34%
+    width: 46%
+    height: 79%
+    background-color: #3C3FA7
+    border-radius: 20px
+    @media (max-width: $bp-max-md)
+      top: -2%
+      left: -2%
+      width: calc(100% + 2rem)
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: 79%
+    @media (max-width: 426px)
+      height: 87%
 //POSISION PANTALLA//
 .pst
   position: absolute
@@ -200,6 +342,21 @@
     bottom: 3%
     left: 35%
     width: 83px
+  &_2
+    position: absolute
+    bottom: 35%
+    left: 13%
+    width: 32px
+  &_3
+    position: absolute
+    bottom: 20%
+    left: 47% 
+    width: 32px
+  &_4
+    position: absolute
+    bottom: 38%
+    left: 82%
+    width: 32px
 //CLASES REEMPLAZADAS//
 .traduccionAudio__chat__item__message__bubble
   background-color: #DDDEFF !important

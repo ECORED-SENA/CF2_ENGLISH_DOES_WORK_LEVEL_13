@@ -204,7 +204,7 @@ export default {
     dialogo4: [
       {
         textoIng:
-          '<em><b>Expression 2:</b> <br><br><i><b>Sorry, I don’t agree with you</b></i><br><br><b>Speaker A:</b> I do not think people from the rural areas should move to cities.<br><br><b>Speaker B:</b> Sorry, I don’t agree with you. I was born in the corn fields and I had to move to the city to find a better salary. Thanks God I can pay for my family’s expenses. I could not have done that if I were in the fields.</em>',
+          '<em><b>Expression 2:</b> <br><br><i><b>Sorry, I don’t agree with you</b></i><br><br><b>Speaker A:</b> I do not think people from the rural areas should move to cities.<br><br><b>Speaker B:</b> Sorry, I don’t agree with you. I was born in the corn fields and I had to move to the city to find a better salary. Thank God I can pay for my family’s expenses. I could not have done that if I were in the fields.</em>',
         textoEsp:
           '<b>Expresión 2:</b><br><br><b>Interlocutor A:</b> No creo que la gente de las áreas rurales deba mudarse a las ciudades.<br><br><b>Interlocutor B:</b>  Lo siento, no estoy de acuerdo contigo. Nací en los campos de maíz, tuve que mudarme a la ciudad para encontrar un mejor salario. Gracias a Dios puedo pagar los gastos de mi familia. No podría haber hecho eso si estuviera en los campos.',
       },

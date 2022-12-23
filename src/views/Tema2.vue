@@ -61,7 +61,7 @@
                           .indicador--click(v-if="mostrarIndicadorAudio")
                       .col-lg-9.d-flex.align-items-center
                         div
-                          p.mb-0.colr <em>The current levels of inflation areextremely dangerous.</em>
+                          p.mb-0.colr <em>The current levels of inflation are extremely dangerous.</em>
                     hr
                     .row
                       .col-auto
@@ -83,7 +83,7 @@
                           .indicador--click(v-if="mostrarIndicadorAudio")
                       .col-lg-9.d-flex.align-items-center
                         div
-                          p.mb-0.colr <em>I am really proud of my culture and ancestry.</em>
+                          p.mb-0.colr <em>I’m really proud of my culture and ancestry.</em>
             .tarjeta(titulo="<em>Strong</em>").bgr.p-3
               .row
                 .col-lg-5
@@ -503,7 +503,7 @@ export default {
           nombre: 'Isabela',
         },
         {
-          nombre: 'Javier',
+          nombre: 'Nina',
         },
       ],
       dialogo: [
@@ -516,7 +516,7 @@ export default {
           audio: require('@/assets/componentes/audios/tema2/2.mp3'),
         },
         {
-          personaje: 'Javier',
+          personaje: 'Nina',
           textoIng:
             '<em>No, to be honest, I am quite illiterate in terms of business and gender topics. Tell me more about her.</em>',
           textoEsp:
@@ -532,7 +532,7 @@ export default {
           audio: require('@/assets/componentes/audios/tema2/4.mp3'),
         },
         {
-          personaje: 'Javier',
+          personaje: 'Nina',
           textoIng: '<em>Really? That is very impressive.</em>',
           textoEsp: '¿En serio? Eso es muy impresionante.',
           audio: require('@/assets/componentes/audios/tema2/5.mp3'),
@@ -562,7 +562,7 @@ export default {
           img: require('@/assets/curso/tema2/13.svg'),
         },
         {
-          nombre: 'Javier',
+          nombre: 'Nina',
           img: require('@/assets/curso/tema2/14.svg'),
         },
       ],
@@ -570,14 +570,14 @@ export default {
         {
           personaje: 'Isabela',
           textoIng:
-            '<em>This business even made Fortune’s “100 Best Workplaces” list for its groundbreaking company culture. And she has had an</em> *** <em>important role in that.</em> ***',
+            '<em>This business even made Fortune’s “100 Best Workplaces” list for its groundbreaking company culture. And she has had an</em> *** <em>important role in that.</em>',
           textoEsp:
             'Esta empresa incluso llegó a la lista de los “100 Mejores lugares para trabajar” de Fortune por su cultura empresarial innovadora. Y ella ha tenido un papel importantísimo en eso.',
           audio: require('@/assets/componentes/audios/tema2/36.mp3'),
           palabra: '<em>extremely</em>',
         },
         {
-          personaje: 'Javier',
+          personaje: 'Nina',
           textoIng:
             '<em>Well, it’s</em> *** <em>impressive to see a woman succeeding like that. Especially in a culture as macho as the one we live in today.</em>',
           textoEsp:
@@ -595,7 +595,7 @@ export default {
           palabra: '<em>particularly</em>',
         },
         {
-          personaje: 'Javier',
+          personaje: 'Nina',
           textoIng:
             '<em>And it is also a topic</em> *** <em>disregarded and little debated.</em>',
           textoEsp: 'Y es también un tema algo desatendido y poco debatido.',

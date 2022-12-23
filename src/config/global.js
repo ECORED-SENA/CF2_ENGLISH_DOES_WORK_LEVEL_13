@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<em>Let’s argue and debate about global problems.</em><br>Vamos a  argumentar y debatir sobre las problemáticas del mundo.',
+      '<em>Let’s argue and debate about global problems</em><br>Vamos a  argumentar y debatir sobre las problemáticas del mundo',
     descripcionCurso:
       'Este componente se enfocará en elementos como el correcto uso de los verbos frasales, cómo mostrar énfasis fortaleciendo adjetivos por medio del uso de intensificadores, el uso de expresiones útiles para contrastar opiniones y cómo organizar las ideas de nuestros argumentos con mapas mentales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -305,8 +305,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Lina Marcela Perez Manchego',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

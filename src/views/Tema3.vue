@@ -180,7 +180,7 @@ export default {
     dialogo1: [
       {
         textoIng:
-          '<em>When we speak to a friend, we often agree or disagree with the other person’s likes and dislikes. If we don’t want to make a fight out of this, we need to show empathy and use the right sentences without sounding aggressive. We need to express our opinions and, at the same time, show that we are listening, understanding and appreciating the other opinions. Here are different ways to do so in a conversation. <br><br><i><b>Tip:</b> It’s always a good idea to justify your opinions, it is not enough saying yes or no only.</i></em>',
+          '<em>When we speak to a friend, we often agree or disagree with the other person’s likes and dislikes. If we don’t want to make a fight out of this, we need to show empathy and use the right sentences without sounding aggressive. We need to express our opinions and, at the same time, show that we are listening, understanding and appreciating the other opinions. Here are different ways to do so in a conversation. <br><br><i><b>Tip:</b> it’s always a good idea to justify your opinions, it is not enough saying yes or no only.</i></em>',
         textoEsp:
           'Cuando hablamos con un amigo, a menudo estamos de acuerdo o en desacuerdo con los gustos y aversiones de la otra persona. Si no queremos hacer una pelea de esto, debemos mostrar empatía y usar la oración correcta sin sonar agresivos. Necesitamos expresar nuestras opiniones y, al mismo tiempo, mostrar que estamos escuchando, entendiendo y apreciando las otras opiniones. Aquí hay diferentes maneras de hacerlo en una conversación.<br><br><b>Consejo:</b> siempre es buena idea justificar sus opiniones, no basta con decir sí o no solamente.',
       },

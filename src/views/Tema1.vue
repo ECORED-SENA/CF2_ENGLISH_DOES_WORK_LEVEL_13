@@ -21,10 +21,10 @@
             SlyderF
               .tarjeta.bgr.p-3
                 .row
-                  .col-lg-5
+                  .col-xl-5.mb-3.mb-xl-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/3.png", alt="alt")
-                  .col-lg-7
+                  .col-xl-7
                     .tarjeta.bgr_2.p-3
                       .row.mb-3
                         .col-auto
@@ -60,10 +60,10 @@
                             p.mb-0 Los participantes del debate mencionaron nuevos temas.
               .tarjeta.bgr.p-3
                 .row
-                  .col-lg-5
+                  .col-xl-5.mb-3.mb-xl-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/4.png", alt="alt")
-                  .col-lg-7
+                  .col-xl-7
                     .tarjeta.bgr_2.p-3
                       .row.mb-3
                         .col-auto
@@ -88,10 +88,10 @@
                             p  Este país ha seguido intentándolo a pesar de los tiempos difíciles y las luchas.
               .tarjeta.bgr.p-3
                 .row
-                  .col-lg-5
+                  .col-xl-5.mb-3.mb-xl-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/5.png", alt="alt")
-                  .col-lg-7
+                  .col-xl-7
                     .tarjeta.bgr_2.p-3
                       .row.mb-3
                         .col-auto
@@ -116,10 +116,10 @@
                             p Los colombianos no se rinden ante ningún obstáculo.
               .tarjeta.bgr.p-3
                 .row
-                  .col-lg-5
+                  .col-xl-5.mb-3.mb-xl-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/6.png", alt="alt")
-                  .col-lg-7
+                  .col-xl-7
                     .tarjeta.bgr_2.p-3
                       .row.mb-3
                         .col-auto
@@ -165,11 +165,11 @@
           .col-lg-4.d-flex.align-items-center
             div
               p.colr_3.mb-0.text-bold <em>Warning</em> / Advertencia:
-              p.colr_3.mb-0 <em>sometimes the same phrasal verb can have several different meanings.</em>
+              p.colr_3.mb-0 <em>Sometimes the same phrasal verb can have several different meanings.</em>
               p.colr_4.mb-0 A veces, el mismo verbo frasal puede tener varios significados diferentes.
     
     p.colr <em>Phrasal verbs are very common in English, especially in more informal contexts. They are made up of a verb and a particle or, sometimes, two particles. The particle often changes the meaning of the verb. We are going to check the next video to remember them:</em>
-    p.colr_1 Los <em>phrasal verbs</em> son muy comunes en inglés, especialmente en contextos más informales. Se componen de un verbo y una partícula o, a veces, dos partículas. La partícula a menudo cambia el significado del verbo. Vamos a ver el siguiente video para recordarlos:
+    p.colr_1 Los verbos frasales son muy comunes en inglés, especialmente en contextos más informales. Se componen de un verbo y una partícula o, a veces, dos partículas. La partícula a menudo cambia el significado del verbo. Vamos a ver el siguiente video para recordarlos:
 
     .bg_grad-07
       figure.mb-5
@@ -181,7 +181,7 @@
 
       .row.mb-5.bgr_3.p-4.justify-content-end
         .col-lg-7
-          .tarjeta.bgr
+          .tarjeta.bgr_19
             TraduccionChat.color-acento-botones(:dialogo="traduccionChat")(data-aos="flip-up")
       
       p.colr <em>Below we will see examples of a base verb and the phrasal verbs it can form, as well as their different meanings:</em>
@@ -333,7 +333,7 @@
         )
           .indicador--click(v-if="mostrarIndicadorAudio")
 
-    p.colr <em><b>Note.</b> In terms of word order, there are tree main types of phrasal verbs: intransitive, separable, and inseparable. / En cuanto al orden de las palabras, hay tres tipos principales de verbos frasales: intransitivos, separables e inseparables.</em>
+    p.colr <em><b>Note.</b> In terms of word order, there are tree main types of phrasal verbs: intransitive, separable, and inseparable. </em> / En cuanto al orden de las palabras, hay tres tipos principales de verbos frasales: intransitivos, separables e inseparables.
 
     .bg_grad-08
       .bg_grad-09
@@ -364,7 +364,7 @@
                   .indicador--click(v-if="mostrarIndicadorAudio")
               .col-lg-9.d-flex.align-items-center
                 div
-                  p.colr <em> Sandra took off her earrings. (transitive)</em>
+                  p.colr <em> Sandra took off her earrings. (Transitive)</em>
                   
             .row
               .col-auto
@@ -376,7 +376,7 @@
               .col-lg-9.d-flex.align-items-center
                 div
                   p.colr <em>Sandra took her earrings off.</em>
-                  p <b>Quitar algo:</b> Sandra se quitó los aretes. (transitivo)
+                  p <b>Quitar algo:</b> Sandra se quitó los aretes. (Transitivo)
           .tarjeta.bgr_2.p-3
             p.colr_2 <em>To leave the ground and begin to fly:</em>
             .row
@@ -388,8 +388,8 @@
                   .indicador--click(v-if="mostrarIndicadorAudio")
               .col-lg-9.d-flex.align-items-center
                 div
-                  p.colr <em>The plane took off with a bit of turbulence . (intransitive)</em>
-                  p <b>Dejar el suelo y empezar a volar:</b> El avión despegó con un poco de turbulencia. (intransitivo)
+                  p.colr <em>The plane took off with a bit of turbulence. (Intransitive)</em>
+                  p <b>Dejar el suelo y empezar a volar:</b> El avión despegó con un poco de turbulencia. (Intransitivo)
     
     separador
 
@@ -609,7 +609,7 @@
                         p.mb-0  Cuidar de
             div
               .bgr_11.p-3
-                h4.text-center <em>Intransitive</em> / Intransitivo
+                h4.text-center <em>Transitive</em> / Transitivo
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
@@ -629,7 +629,7 @@
                         p.mb-0 Quedarse sin
             div
               .bgr_11.p-3
-                h4.text-center <em>Intransitive</em> / Intransitivo
+                h4.text-center <em>Transitive</em> / Transitivo
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
@@ -649,7 +649,7 @@
                         p.mb-0  Enrollar
             div
               .bgr_11.p-3
-                h4.text-center <em>Intransitive</em> / Intransitivo
+                h4.text-center <em>Transitive</em> / Transitivo
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
@@ -669,7 +669,7 @@
                         p.mb-0 Llevar a cabo
             div
               .bgr_11.p-3
-                h4.text-center <em>Intransitive</em> / Intransitivo
+                h4.text-center <em>Transitive</em> / Transitivo
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
@@ -720,7 +720,7 @@ export default {
     traduccionChat: {
       personajes: [
         {
-          nombre: 'Dario',
+          nombre: 'Nina',
         },
         {
           nombre: 'Lucila',
@@ -728,7 +728,7 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Dario',
+          personaje: 'Nina',
           textoIng: '<em>Look at the sky. It’s so gray and gloomy.</em>',
           textoEsp: 'Mira el cielo. Es tan gris y sombrío.',
           audio: require('@/assets/componentes/audios/tema1/11.mp3'),
@@ -742,7 +742,7 @@ export default {
           audio: require('@/assets/componentes/audios/tema1/12.mp3'),
         },
         {
-          personaje: 'Dario',
+          personaje: 'Nina',
           textoIng:
             '<em>I know. The government should cut back on the use of fossil fuels.</em>',
           textoEsp:
@@ -770,7 +770,7 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Dario',
+          nombre: 'Nina',
           img: require('@/assets/curso/tema1/24.svg'),
         },
         {
@@ -780,7 +780,7 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Dario',
+          personaje: 'Nina',
           textoIng:
             '<em>Hopefully, the new environmentalist senator we voted for is not going to let us</em> ***',
           textoEsp:
@@ -798,7 +798,7 @@ export default {
           palabra: '<em>away</em>',
         },
         {
-          personaje: 'Dario',
+          personaje: 'Nina',
           textoIng:
             '<em>Yes, what good is it for us to recycle if they take</em> *** <em>their private jets and with a single 15-minute trip they contaminate what we do in our entire lives.</em>',
           textoEsp:

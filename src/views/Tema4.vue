@@ -177,7 +177,7 @@ export default {
           '<em>With the advancement of technology, multiple organizations started the development of software that allow users to create digital mind maps. Such tools make it easier to visualize and work through an idea or strategy and allow a user to map his thoughts in an organized structure. There are several tools available which facilitate the creation of digital mind maps.</em>',
         textoEsp:
           'Con el avance de la tecnología, varias organizaciones comenzaron a desarrollar software que permite a los usuarios crear mapas mentales digitales. Tales herramientas hacen más fácil visualizar y trabajar a través de una idea o estrategia y permitir que un usuario mapee sus pensamientos en una estructura organizada. Hay varias herramientas disponibles que facilitan la creación de mapas mentales digitales. Veamos algunos de ellos:',
-        audio: require('@/assets/componentes/audios/tema4/7.mp3'),
+        audio: require('@/assets/componentes/audios/tema4/8.mp3'),
       },
     ],
     dialogo: {
@@ -198,7 +198,7 @@ export default {
             '<em>Did you see the homework we have for next Friday? We need to present a</em> *** <em>map.</em>',
           textoEsp:
             '¿Viste la tarea que tenemos para el próximo viernes? Necesitamos presentar un mapa mental.',
-          audio: require('@/assets/componentes/audios/tema4/8.mp3'),
+          audio: require('@/assets/componentes/audios/tema4/9.mp3'),
           palabra: '<em>mind</em>',
         },
         {
@@ -207,7 +207,7 @@ export default {
             '<em>Oh, that’s easy, we just need to</em> *** <em>our ideas.</em>',
           textoEsp:
             'Oh, eso es fácil, solo tenemos que hacer una lluvia de ideas.',
-          audio: require('@/assets/componentes/audios/tema4/9.mp3'),
+          audio: require('@/assets/componentes/audios/tema4/10.mp3'),
           palabra: '<em>brainstorm</em>',
         },
         {
@@ -215,7 +215,7 @@ export default {
           textoIng:
             '<em>Also, we need to be</em> *** <em>and add images, don’t we? </em>',
           textoEsp: 'Además, tenemos que ser creativos y añadir imágenes, ¿no?',
-          audio: require('@/assets/componentes/audios/tema4/10.mp3'),
+          audio: require('@/assets/componentes/audios/tema4/11.mp3'),
           palabra: '<em>creative</em>',
         },
         {
@@ -224,7 +224,7 @@ export default {
             '<em>Yeap, we cannot forget to connect the ideas as</em> ***, <em>I mean organize them next to the principal idea. </em>',
           textoEsp:
             'Sí, no podemos olvidar conectar las ideas como ramas, es decir, organizarlas junto a la idea principal.',
-          audio: require('@/assets/componentes/audios/tema4/11.mp3'),
+          audio: require('@/assets/componentes/audios/tema4/12.mp3'),
           palabra: '<em>branches</em>',
         },
       ],

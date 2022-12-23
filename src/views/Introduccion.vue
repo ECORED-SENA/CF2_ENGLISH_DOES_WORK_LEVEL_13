@@ -32,11 +32,11 @@
             p.text-white Si desea practicar, el siguiente PDF presenta los textos del video anterior, tanto en inglés como en español.
             .row
               .col-auto
-                a.anexo.mb-4(:href="obtenerLink('downloads/anexo3.pdf')" target="_blank")
+                a.anexo.mb-4(:href="obtenerLink('downloads/introduccion.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p <b>Anexo.</b> introducción
+                    p <b>Anexo.</b> Introducción
         .col-lg-3
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/introduccion/4.png", alt="alt") 

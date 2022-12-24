@@ -8,7 +8,7 @@
       h1 <em>Phrasal verbs</em> (Verbos frasales)
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0  
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/1.png", alt="alt")
       .col-lg-8
@@ -16,7 +16,7 @@
     
     .bg_grad-06
       .row.mb-5
-        .col-lg-8
+        .col-lg-8.mb-3.mb-lg-0
           .tarjeta.bgr_1.p-4
             SlyderF
               .tarjeta.bgr.p-3
@@ -159,10 +159,10 @@
       
       .bg_grad-05
         .row.mb-5.justify-content-center
-          .col-lg-3
+          .col-lg-3.order-2.order-lg-1
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema1/7.png", alt="alt")
-          .col-lg-4.d-flex.align-items-center
+          .col-lg-4.d-flex.align-items-center.justify-content-center.order-1.order-lg-2.mb-3.mb-lg-0
             div
               p.colr_3.mb-0.text-bold <em>Warning</em> / Advertencia:
               p.colr_3.mb-0 <em>Sometimes the same phrasal verb can have several different meanings.</em>
@@ -174,7 +174,7 @@
     .bg_grad-07
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/3koUgC7gN6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       p.colr <em>Let’s see how they work in a real life situation in which it is necessary to use them to express the idea:</em>
       p.colr_1 Veamos cómo funcionan en una situación de la vida real en la que es necesario utilizarlos para expresar la idea.
@@ -306,8 +306,8 @@
                   p.colr.text-bold <em>To check, to review or to examine something</em>
                   p.colr <em>Let's look the document over before signing it.</em>
 
-    .row
-      .col-lg-6
+    .row.mb-5
+      .col-lg-6.mb-3.mb-lg-0
         TraduccionT.color-acento-botones(:dialogo="dialogo2")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/10.svg", alt="alt")
@@ -338,10 +338,10 @@
     .bg_grad-08
       .bg_grad-09
         .row.mb-5.justify-content-center
-          .col-lg-3
+          .col-lg-3.order-2.order-lg-1
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema1/7.png", alt="alt")
-          .col-lg-4.d-flex.align-items-center
+          .col-lg-4.d-flex.align-items-center.order-1.order-lg-2.mb-3.mb-lg-0
             div
               p.colr_3.mb-0.text-bold <em>Warning</em> / Advertencia:
               p.colr_3.mb-0 <em>There are phrasal verbs that can be transitive in one sentence and intransitive in another, and their meanings change.</em>
@@ -397,7 +397,7 @@
       h2 1.1 <em>Separable</em> (Separables)
 
     .row
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         p.colr <em>Now, we are going to check that only certain transitive phrasal verbs are separable:</em>
         p.colr_1 Ahora, vamos a comprobar que solo ciertos verbos frasales transitivos son separables:
         figure.d-flex.justify-content-center
@@ -490,18 +490,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/14.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/36.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Break down</em>
                         p.mb-0 Descomponerse o dañarse
             div
@@ -510,18 +510,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/15.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0   
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/37.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Grow up</em>
                         p.mb-0 Crecer
             div
@@ -530,18 +530,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/16.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0   
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/38.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Step aside</em>
                         p.mb-0  Hacerse a un lado
             div
@@ -550,18 +550,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/17.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0   
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/39.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Sit down</em>
                         p.mb-0  Sentarse
             div
@@ -570,18 +570,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0 
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/18.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0  
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/40.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Get up</em>
                         p.mb-0  Levantarse
       .col-lg-6
@@ -593,18 +593,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0 
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/19.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0    
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/41.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em> Look after</em>
                         p.mb-0  Cuidar de
             div
@@ -613,18 +613,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0  
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/20.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0  
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/42.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Run out of</em>
                         p.mb-0 Quedarse sin
             div
@@ -633,18 +633,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/21.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0    
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/43.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Roll up</em>
                         p.mb-0  Enrollar
             div
@@ -653,18 +653,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0 
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/22.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0   
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/44.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Carry out</em>
                         p.mb-0 Llevar a cabo
             div
@@ -673,18 +673,18 @@
                 p.mb-0.text-bold.text-center <em>Phrasal verb</em> / Verbo frasal
               .bgr_10
                 .row.p-3
-                  .col-auto 
+                  .col-lg-auto.mb-3.mb-lg-0 
                     figure.d-flex.justify-content-center
                       img.w-auto(src="@/assets/curso/tema1/23.svg", alt="alt")
                   .col-lg-8
                     .row
-                      .col-auto   
+                      .col-lg-auto.mb-3.mb-lg-0    
                         Audio.color-acento-botones.m-auto(
                           :audio="require('@/assets/componentes/audios/tema1/45.mp3')"
                           @audio-hover="mostrarIndicadorAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorAudio")
-                      .col-lg-8
+                      .col-lg-8.text-center
                         p.colr <em>Find out</em>
                         p.mb-0 Descubrir
                       

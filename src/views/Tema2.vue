@@ -8,7 +8,7 @@
       h1 <em>Intensifiers</em> (Intensificadores)
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/1.png", alt="alt")
       .col-lg-5
@@ -28,7 +28,7 @@
           p.mb-5.colr.text-center <em>Next, a dialogue between people that use relative clauses is presented.</em>
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/3.svg", alt="alt")
-          .bgr_13.px-5.pb-5
+          .bgr_13.px-3.px-md-5.pb-5
             .bgr_14.p-4
               TraduccionChat.color-acento-botones(:dialogo="traduccionChat")(data-aos="flip-up") 
           img.pst_6(src="@/assets/curso/tema2/5.svg", alt="alt")
@@ -46,7 +46,7 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta bgr_18")
             .tarjeta(titulo="<em>More intense, more powerful</em>").bgr.p-3
               .row
-                .col-lg-5
+                .col-lg-5.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema2/7.svg", alt="alt")
                 .col-lg-7
@@ -86,7 +86,7 @@
                           p.mb-0.colr <em>I’m really proud of my culture and ancestry.</em>
             .tarjeta(titulo="<em>Strong</em>").bgr.p-3
               .row
-                .col-lg-5
+                .col-lg-5.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema2/8.svg", alt="alt")
                 .col-lg-7
@@ -115,7 +115,7 @@
                           p.mb-0.colr <em>The fight against corruption has been quite difficult.</em>
             .tarjeta(titulo="<em>To a limited extent</em>").bgr.p-3
               .row
-                .col-lg-5
+                .col-lg-5.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema2/9.svg", alt="alt")
                 .col-lg-7
@@ -156,10 +156,10 @@
     
       .bg_grad-12
         .row.mb-5.justify-content-center
-          .col-lg-3
+          .col-lg-3.order-2.order-lg-1
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema2/10.png", alt="alt")
-          .col-lg-6.d-flex.align-items-center
+          .col-lg-6.d-flex.align-items-center.order-1.order-lg-2.mb-3.mb-lg-0
             div
               p.colr_3.mb-0.text-bold <em>Warning</em> / Advertencia:
               p.colr_3.mb-0 <em>Although in Spanish several of them can be interpreted in a similar way, in their original language they have certain nuances from the strongest to the least intense.</em>
@@ -182,196 +182,196 @@
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/14.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very big</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/15.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Enormous, huge, gigantic</em> 
             div
               .bgr_9.p-3
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/16.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very small</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/17.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Tiny</em> 
             div
               .bgr_9.p-3
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/18.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very clever</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/19.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Brilliant</em> 
             div
               .bgr_9.p-3
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0 
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/20.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very bad</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/21.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Awful, terrible, disgusting, dreadful</em> 
             div
               .bgr_9.p-3
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/22.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very sure</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/23.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Certain</em>
             div
               .bgr_9.p-3
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/24.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very good</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/25.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Excellent, perfect, ideal, wonderful, splendid</em>
             div
               .bgr_9.p-3
                 h4.mb-0.text-center <em>Intensifier + Adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/26.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Very tasty</em>
             div
               .bgr_11.p-3
                 h4.mb-0.text-center <em>Strong adjective</em>
               .bgr_10.h-100
                 .row.p-3
-                  .col-auto   
+                  .col-lg-auto.mb-3.mb-lg-0   
                     Audio.color-acento-botones.m-auto(
                       :audio="require('@/assets/componentes/audios/tema2/27.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-8
+                  .col-lg-8.text-center
                     p.colr.mb-0 <em>Delicious</em>
     .bg_grad-13
       .row.mb-5.justify-content-center
-        .col-lg-3
+        .col-lg-3.order-2.order-lg-1
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/10.png", alt="alt")
-        .col-lg-6.d-flex.align-items-center
+        .col-lg-6.d-flex.align-items-center.order-1.order-lg-2.mb-3.mb-lg-0
           div
             p.colr_3.mb-0.text-bold <em>Warning</em> / Advertencia:
             p.colr_3.mb-0 <em>In many standardized tests for the certification of the level of proficiency in English, it is good to handle a wide vocabulary level, especially with adjectives, to avoid an exaggerated use of "very".</em>
             p.colr_4.mb-0 En muchos exámenes estandarizados para la certificación del nivel de dominio lingüístico del inglés, es bueno manejar un nivel de vocabulario amplio, especialmente con los adjetivos, para evitar un uso exagerado de "<em>very</em>".
     
     .row.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         TraduccionT.color-acento-botones(:dialogo="dialogo3")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/12.png", alt="alt")

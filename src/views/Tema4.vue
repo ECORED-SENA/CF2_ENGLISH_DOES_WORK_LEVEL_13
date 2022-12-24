@@ -8,7 +8,7 @@
       h1 <em>Organizing the ideas of an argument with mind maps</em> (Organizando las ideas de un argumento con mapas mentales)    
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/1.png", alt="alt")
       .col-lg-8
@@ -61,7 +61,7 @@
             p.colr.text-bold.text-center <em> Writing essays</em>
       
       .row.mb-5
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           TraduccionT.color-acento-botones.bgr_16(:dialogo="dialogo2")(data-aos="flip-up")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema4/7.svg", alt="alt")
@@ -69,45 +69,45 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta bgr_18")
             .tarjeta(titulo="<em>Benefits of the mind map for your brain</em> / Beneficios del mapa mental para tu cerebro").bgr.p-3
               .row
-                .col-lg-3
+                .col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema4/8.svg", alt="alt")
                 .col-lg-9
                   TraduccionAudio.color-acento-botones(:dialogo="dialogo3")(data-aos="flip-up")
             .tarjeta(titulo="<em>The characteristics of mind map</em> / Las características del mapa mental").bgr.p-3
               .row
-                .col-lg-3
+                .col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema4/9.svg", alt="alt")
                 .col-lg-9
                   TraduccionAudio.color-acento-botones.bgr_16(:dialogo="dialogo4")(data-aos="flip-up")
             .tarjeta(titulo="<em>Software to create mind maps</em> / <em>Software</em> para crear mapas mentales").bgr.p-3
               .row
-                .col-lg-3
+                .col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema4/10.svg", alt="alt")
                 .col-lg-9
                   TraduccionAudio.color-acento-botones.bgr_16(:dialogo="dialogo5")(data-aos="flip-up")
                   p.colr <em>Let’s see some of them:</em>
                   .row.mb-3.justify-content-center
-                    .col-lg-3
+                    .col-md-3.col-lg-3.mb-3.mb-lg-0
                       a.boton.color-acento-botones.me-3(href="https://www.goconqr.com/" target="_blank")
                         span Goconqr
                         i.fas.fa-link
-                    .col-lg-4
+                    .col-md-4.col-lg-4.mb-3.mb-lg-0
                       a.boton.color-acento-botones.me-3(href="https://www.mindmeister.com/" target="_blank")
                         span MindMeister
                         i.fas.fa-link
-                    .col-lg-3
+                    .col-md-3.col-lg-3
                       a.boton.color-acento-botones.me-3(href="https://www.lucidchart.com/" target="_blank")
                         span Lucidchart
                         i.fas.fa-link
                   .row.justify-content-center
-                    .col-lg-3
+                    .col-md-3.col-lg-3.mb-3.mb-lg-0
                       a.boton.color-acento-botones.me-3(href="https://xmind.app/" target="_blank")
                         span XMind
                         i.fas.fa-link
-                    .col-lg-3
+                    .col-md-3.col-lg-3
                       a.boton.color-acento-botones.me-3(href="https://www.ayoa.com/mind-mapping/software/" target="_blank")
                         span iMindMap
                         i.fas.fa-link

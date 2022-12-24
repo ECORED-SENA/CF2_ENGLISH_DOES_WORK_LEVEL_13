@@ -152,8 +152,11 @@
     i
       background-color: #FCF2CA
       padding: 0.5rem
+      @media (max-width: $bp-max-lg)
+        padding: 0.2rem
     b
       color: $color-secundario
+    
   &_17
     i
       color: $color-secundario
@@ -232,8 +235,7 @@
       height: calc(100% + 11px)
       left: -3%;
       width: calc(100% + 2rem);
-    @media (max-width: 426px)
-      height: 100%
+    
 .bg_grad-04
   position: relative
   .row, p
@@ -299,6 +301,7 @@
     background-repeat: no-repeat
     background-size: cover
     @media (max-width: $bp-max-md)
+      top: -2%
       height: 90%
     @media (max-width: $bp-max-xs)
       height: 90%
@@ -358,9 +361,13 @@
     height: 79%
     background-color: #3C3FA7
     border-radius: 20px
+    @media (max-width: $bp-max-xl)
+      top: -2%
+      height: calc(100% + 1rem)
     @media (max-width: $bp-max-md)
       top: -2%
       left: -2%
+      height: 74%
       width: calc(100% + 2rem)
     @media (max-width: $bp-max-xs)
       top: -2%
@@ -422,8 +429,8 @@
     background-color: #3C3FA7
     border-radius: 20px
     @media (max-width: $bp-max-xl)
-      top: 12%
-      height: 77%
+      top: 8%
+      height: 85%
     @media (max-width: $bp-max-md)
       top: -2%
       left: -2%
@@ -448,8 +455,8 @@
     background-color: #3C3FA7
     border-radius: 20px
     @media (max-width: $bp-max-xl)
-      top: 6%
-      height: 89%
+      top: 0%
+      height: 100%
     @media (max-width: $bp-max-md)
       top: -2%
       left: -2%
@@ -507,6 +514,9 @@
   top: 0
   right: 3%
   width: 70px
+  @media (max-width: $bp-max-md)
+    top: -7%
+    right: -7%
   &_1
     position: absolute
     bottom: 3%
@@ -515,6 +525,12 @@
     @media (max-width: $bp-max-xl)
       bottom: 0
       left: 26%
+    @media (max-width: $bp-max-md)
+      bottom: -7%;
+      left: 38%;
+    @media (max-width: $bp-max-xs)
+      bottom: -9%
+      left: -6%
   &_2
     position: absolute !important
     bottom: 36%
@@ -535,6 +551,10 @@
     top: 11%
     left: 13%
     width: 32px
+    @media (max-width: $bp-max-md)
+      left: 33%
+    @media (max-width: $bp-max-xs)
+      left: 22%
   &_6
     position: absolute
     top: 93%

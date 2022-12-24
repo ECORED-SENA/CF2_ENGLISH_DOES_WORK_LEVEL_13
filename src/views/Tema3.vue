@@ -8,7 +8,7 @@
       h1 <em>Contrasting opinions</em> (Contrastando opiniones)
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/1.png", alt="alt")
       .col-lg-8
@@ -16,7 +16,7 @@
     
     .bg_grad-14
       .row.mb-5
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           TraduccionT.color-acento-botones.bgr_16(:dialogo="dialogo2")(data-aos="flip-up")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema3/2.png", alt="alt")
@@ -95,7 +95,7 @@
           .bgr.p-4
             SlyderA(tipo="b") 
               .row
-                .col-lg-5.pe-0
+                .col-lg-5.pe-0.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/8.png", alt="alt")
                 .col-lg-6
@@ -107,7 +107,7 @@
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                       TraduccionT.color-acento-botones.bgr_17(:dialogo="dialogo9")
               .row
-                .col-lg-5.pe-0
+                .col-lg-5.pe-0.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/9.png", alt="alt")
                 .col-lg-6
@@ -119,7 +119,7 @@
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                       TraduccionT.color-acento-botones.bgr_17(:dialogo="dialogo10")
               .row
-                .col-lg-5.pe-0
+                .col-lg-5.pe-0.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/10.png", alt="alt")
                 .col-lg-6
@@ -131,7 +131,7 @@
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                       TraduccionT.color-acento-botones.bgr_17(:dialogo="dialogo11")
               .row
-                .col-lg-5.pe-0
+                .col-lg-5.pe-0.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/11.png", alt="alt")
                 .col-lg-6
@@ -143,7 +143,7 @@
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                       TraduccionT.color-acento-botones.bgr_17(:dialogo="dialogo12")
               .row
-                .col-lg-5.pe-0
+                .col-lg-5.pe-0.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/12.png", alt="alt")
                 .col-lg-6

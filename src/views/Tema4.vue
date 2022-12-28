@@ -88,7 +88,8 @@
                     img.w-auto(src="@/assets/curso/tema4/10.svg", alt="alt")
                 .col-lg-9
                   TraduccionAudio.color-acento-botones.bgr_16(:dialogo="dialogo5")(data-aos="flip-up")
-                  p.colr <em>Let’s see some of them:</em>
+                  p.colr <em>Let’s see some of them: </em>
+                    span.colr_1 /  Veamos algunos de ellos:
                   .row.mb-3.justify-content-center
                     .col-md-3.col-lg-3.mb-3.mb-lg-0
                       a.boton.color-acento-botones.me-3(href="https://www.goconqr.com/" target="_blank")
@@ -176,7 +177,7 @@ export default {
         textoIng:
           '<em>With the advancement of technology, multiple organizations started the development of software that allow users to create digital mind maps. Such tools make it easier to visualize and work through an idea or strategy and allow a user to map his thoughts in an organized structure. There are several tools available which facilitate the creation of digital mind maps.</em>',
         textoEsp:
-          'Con el avance de la tecnología, varias organizaciones comenzaron a desarrollar software que permite a los usuarios crear mapas mentales digitales. Tales herramientas hacen más fácil visualizar y trabajar a través de una idea o estrategia y permitir que un usuario mapee sus pensamientos en una estructura organizada. Hay varias herramientas disponibles que facilitan la creación de mapas mentales digitales. Veamos algunos de ellos:',
+          'Con el avance de la tecnología, varias organizaciones comenzaron a desarrollar software que permite a los usuarios crear mapas mentales digitales. Tales herramientas hacen más fácil visualizar y trabajar a través de una idea o estrategia y permitir que un usuario mapee sus pensamientos en una estructura organizada. Hay varias herramientas disponibles que facilitan la creación de mapas mentales digitales.',
         audio: require('@/assets/componentes/audios/tema4/8.mp3'),
       },
     ],

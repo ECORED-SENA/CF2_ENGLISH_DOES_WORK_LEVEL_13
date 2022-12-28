@@ -155,7 +155,7 @@ export default {
       referencia:
         '<em>BBC Learning English.  (2019). Very vs Really vs Absolutely - English In A Minute</em>',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=KMoepo9Uxv4 ',
+      link: 'https://www.youtube.com/watch?v=geM5-oJnVNo',
     },
     {
       tema: '<em>Contrasting opinions</em> (Contrastando opiniones)',

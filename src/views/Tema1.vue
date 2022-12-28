@@ -403,74 +403,75 @@
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/13.png", alt="alt")
       .col-lg-7
-        table
-          thead.bgr_7
-            tr.text-center.text-bold
-              td.colr <em>Phrasal verb</em> / Verbo frasal
-              td.colr <em>Meaning</em> / Significado
-          tbody.bgr_6
-            tr
-              td 
-                .row.d-flex.align-items-center
-                  .col-auto
-                    Audio.color-acento-botones.m-auto(
-                      :audio="require('@/assets/componentes/audios/tema1/31.mp3')"
-                      @audio-hover="mostrarIndicadorAudio = false"
-                    )
-                      .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-10
-                    p.mb-0.colr.text-bold <em>Let (somebody) down</em>
-              td Decepcionar (a alguien)
-            tr
-              td 
-                .row.d-flex.align-items-center
-                  .col-auto
-                    Audio.color-acento-botones.m-auto(
-                      :audio="require('@/assets/componentes/audios/tema1/32.mp3')"
-                      @audio-hover="mostrarIndicadorAudio = false"
-                    )
-                      .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-10
-                    p.mb-0.colr.text-bold <em>Pick (somebody or something) up</em>
-              td Recoger (a alguien o algo)
-            tr
-              td 
-                .row.d-flex.align-items-center
-                  .col-auto
-                    Audio.color-acento-botones.m-auto(
-                      :audio="require('@/assets/componentes/audios/tema1/33.mp3')"
-                      @audio-hover="mostrarIndicadorAudio = false"
-                    )
-                      .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-10
-                    p.mb-0.colr.text-bold <em>Call (somebody) back</em>
-              td Devolverle la llamada (a alguien)
-            tr
-              td 
-                .row.d-flex.align-items-center
-                  .col-auto
-                    Audio.color-acento-botones.m-auto(
-                      :audio="require('@/assets/componentes/audios/tema1/34.mp3')"
-                      @audio-hover="mostrarIndicadorAudio = false"
-                    )
-                      .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-10
-                    p.mb-0.colr.text-bold <em>Take (somebody or something) back</em>
-              td
-                p Llevar (a alguien) de vuelta
-                p Tomar (algo) de vuelta
-            tr
-              td 
-                .row.d-flex.align-items-center
-                  .col-auto
-                    Audio.color-acento-botones.m-auto(
-                      :audio="require('@/assets/componentes/audios/tema1/35.mp3')"
-                      @audio-hover="mostrarIndicadorAudio = false"
-                    )
-                      .indicador--click(v-if="mostrarIndicadorAudio")
-                  .col-lg-10
-                    p.mb-0.colr.text-bold <em>Fill (something) out</em>
-              td Llenar (algo)
+        .tabla-a
+          table
+            thead.bgr_7
+              tr.text-center.text-bold
+                td.colr <em>Phrasal verb</em> / Verbo frasal
+                td.colr <em>Meaning</em> / Significado
+            tbody.bgr_6
+              tr
+                td 
+                  .row.d-flex.align-items-center
+                    .col-auto
+                      Audio.color-acento-botones.m-auto(
+                        :audio="require('@/assets/componentes/audios/tema1/31.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorAudio")
+                    .col-lg-10
+                      p.mb-0.colr.text-bold <em>Let (somebody) down</em>
+                td Decepcionar (a alguien)
+              tr
+                td 
+                  .row.d-flex.align-items-center
+                    .col-auto
+                      Audio.color-acento-botones.m-auto(
+                        :audio="require('@/assets/componentes/audios/tema1/32.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorAudio")
+                    .col-lg-10
+                      p.mb-0.colr.text-bold <em>Pick (somebody or something) up</em>
+                td Recoger (a alguien o algo)
+              tr
+                td 
+                  .row.d-flex.align-items-center
+                    .col-auto
+                      Audio.color-acento-botones.m-auto(
+                        :audio="require('@/assets/componentes/audios/tema1/33.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorAudio")
+                    .col-lg-10
+                      p.mb-0.colr.text-bold <em>Call (somebody) back</em>
+                td Devolverle la llamada (a alguien)
+              tr
+                td 
+                  .row.d-flex.align-items-center
+                    .col-auto
+                      Audio.color-acento-botones.m-auto(
+                        :audio="require('@/assets/componentes/audios/tema1/34.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorAudio")
+                    .col-lg-10
+                      p.mb-0.colr.text-bold <em>Take (somebody or something) back</em>
+                td
+                  p Llevar (a alguien) de vuelta
+                  p Tomar (algo) de vuelta
+              tr
+                td 
+                  .row.d-flex.align-items-center
+                    .col-auto
+                      Audio.color-acento-botones.m-auto(
+                        :audio="require('@/assets/componentes/audios/tema1/35.mp3')"
+                        @audio-hover="mostrarIndicadorAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorAudio")
+                    .col-lg-10
+                      p.mb-0.colr.text-bold <em>Fill (something) out</em>
+                td Llenar (algo)
     
     separador
 

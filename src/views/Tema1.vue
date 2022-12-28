@@ -190,7 +190,7 @@
 
       .row.bgr_4.p-5.justify-content-center.mb-5
         .col-lg-10
-          ImagenInfografica.d-none.d-sm-flex.color-acento-botones
+          ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
